@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed bottom-5 left-1/2 transform -translate-x-1/2 z-50 ">
-      <div className="flex gap-2 px-6 py-3 backdrop-blur-sm bg-background/80 border border-foreground/20 rounded-full shadow-2xl animate-fade-in">
+      <div className="flex gap-2 px-3 py-1 backdrop-blur-sm bg-background/80 border border-foreground/20 shadow-2xl animate-fade-in">
         {navItems.map((item) => (
           <Link
             key={item.label}
