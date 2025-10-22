@@ -18,7 +18,6 @@ const COMPOSED_TITLE = `${SITE_TITLE} — ${SITE_ROLE}`
 export const metadata: Metadata = {
   title: COMPOSED_TITLE,
   description: SITE_DESCRIPTION,
-  generator: "v0.app",
   openGraph: {
     title: COMPOSED_TITLE,
     description: SITE_DESCRIPTION,
