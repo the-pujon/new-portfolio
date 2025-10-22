@@ -19,7 +19,7 @@ export default function Header() {
             <h1 className="text-5xl font-bold text-foreground mb-1">PUJON DAS AUVI</h1>
             <p className="text-base text-foreground font-semibold mb-1">Software Engineer / Full Stack Developer</p>
           </div>
-          <div className="flex gap-2">
+          <div className="flex flex-col md:flex-row gap-2">
             {socialLinks.map((social) => (
               <Link
                 key={social.name}
@@ -42,3 +42,6 @@ export default function Header() {
     </header>
   )
 }
+
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_ROLE } from "./site-metadata"
+export { SITE_TITLE, SITE_DESCRIPTION, SITE_ROLE }
