@@ -66,6 +66,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Fallback meta tags for crawlers that don't use next's metadata */}
+        <link rel="icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+        <meta name="theme-color" content="#0ea5a2" />
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
