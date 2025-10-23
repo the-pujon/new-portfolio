@@ -97,16 +97,16 @@ export default function Experience() {
           >
             <div className="flex justify-between items-start mb-1">
               <h3 className="text-base font-bold text-foreground">
-                {exp.title} -  <span className="text-primary font-bold text-sm mb-1 uppercase">
-              {exp.company}
+                {exp.title} - <span className="text-primary hidden md:inline font-bold text-sm mb-1 uppercase">
+               {exp.company}
             </span>
               </h3>
               <span className="text-xs font-semibold text-foreground">
                 {exp.period}
               </span>
             </div>
-            <p className="text-primary font-bold text-xs mb-1 uppercase">
-              {/* {exp.company} */}
+            <p className="text-primary font-bold md:hidden mb-1 uppercase">
+              {exp.company}
             </p>
             {/* <p className="text-foreground text-sm leading-relaxed">
               {exp.description}
