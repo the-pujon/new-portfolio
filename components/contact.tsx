@@ -10,8 +10,8 @@ export default function Contact() {
         <div className="space-y-2">
           <div className="pb-2">
             <p className="text-xs font-bold text-foreground mb-1 uppercase">Email</p>
-            <a href="mailto:pujon@example.com" className="text-primary hover:underline font-bold text-sm">
-              pujon@example.com
+            <a href="mailto:auvipujondas@gmail.com" className="text-primary hover:underline font-bold text-sm">
+              auvipujondas@gmail.com
             </a>
           </div>
           <div>

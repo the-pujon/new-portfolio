@@ -12,7 +12,7 @@ import Navbar from "@/components/navbar"
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       <div className="max-w-4xl mx-auto px-6 py-6 space-y-7 pb-24">
         <About />

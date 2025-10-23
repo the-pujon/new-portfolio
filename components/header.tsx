@@ -5,10 +5,10 @@ import Link from "next/link"
 
 export default function Header() {
   const socialLinks = [
-    { name: "GitHub", url: "https://github.com", icon: <Github/> },
-    { name: "LinkedIn", url: "https://linkedin.com", icon: <Linkedin/> },
+    { name: "GitHub", url: "https://github.com/the-pujon", icon: <Github/> },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/pujon-das-auvi/", icon: <Linkedin/> },
     // { name: "Twitter", url: "https://twitter.com", icon: "TW" },
-    { name: "Email", url: "mailto:contact@example.com", icon: <Mail/> },
+    { name: "Email", url: "mailto:auvipujon@gmail.com", icon: <Mail/> },
   ]
 
   return (

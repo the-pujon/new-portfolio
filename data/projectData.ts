@@ -22,8 +22,8 @@ export const projectsData: Project[] = [
   {
     id: 1,
     title: "Sparkle Car Wash",
-    description:
-      "A comprehensive, eco-friendly car wash booking web application with real-time scheduling, secure user management, and a powerful admin dashboard.",
+    description:`I developed a **full-stack car wash booking web application** with booking system and JWT-based RBAC. I optimized backend APIs with Redis caching, reducing latency by **97% (194ms → 5ms)**. I designed an admin dashboard that is fast and easy to use, achieving 10ms TBT and 0 CLS. The project delivers a fast, responsive, and user-friendly experience.
+      `,
     tags: [
       "React",
       "Typescript",
@@ -164,7 +164,7 @@ Sparkle Car Wash stands out by combining **advanced technology, user-centric des
     id: 2,
     title: "PrimeLifeFit",
     description:
-      "A modern, scalable e-commerce platform for premium fitness equipment with seamless user experience and powerful admin management.",
+      "I developed a **full-stack e-commerce platform** for fitness products with secure user roles and real-time product/order management. REST APIs were built with **Express, TypeScript, and MongoDB** using RTK Query, following best practices. I also created a responsive admin dashboard with charts and visual insights, delivering a fast, simple, and easy-to-use shopping experience.",
     tags: [
       "React",
       "TypeScript",
