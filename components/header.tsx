@@ -34,10 +34,10 @@ export default function Header() {
             ))}
           </div>
         </div>
-        <p className="text-sm text-foreground max-w-2xl leading-relaxed">
+        {/* <p className="text-sm text-foreground max-w-2xl leading-relaxed">
           Building scalable web applications with modern technologies. Passionate about clean code, user experience, and
           continuous learning.
-        </p>
+        </p> */}
       </div>
     </header>
   )
