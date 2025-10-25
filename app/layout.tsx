@@ -11,7 +11,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.pujon.info"
-const DEFAULT_IMAGE = "/logo.png"
+const DEFAULT_IMAGE = "/pujondas.jpg"
 
 const COMPOSED_TITLE = `${SITE_TITLE} — ${SITE_ROLE}`
 
@@ -65,8 +65,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Fallback meta tags for crawlers that don't use next's metadata */}
-        <link rel="icon" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        <link rel="icon" href="/pujondas.jpg" />
+        <link rel="apple-touch-icon" href="/pujondas.jpg" />
         <meta name="theme-color" content="#0ea5a2" />
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
